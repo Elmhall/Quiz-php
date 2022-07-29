@@ -8,7 +8,7 @@ if (isset($_POST['name']) && isset($_POST['email'])){
         $_SESSION['email'] = $_POST['email'];
         $_SESSION['name'] = $_POST['name'];
 
-        header('location: /result.php?quiz=' . $_GET['quiz']);
+        header('location: ./result.php?quiz=' . $_GET['quiz']);
 
     }
 }

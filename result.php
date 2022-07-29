@@ -44,7 +44,7 @@ if (isset($_SESSION['answers'])) {
             <h2 class="center">Result</h2>
             <h3>Your score: <?php echo $_SESSION['last_score'] . '/' . sizeof($result) ?></h3>
             <h3><?php echo ($_SESSION['last_score'] / sizeof($result)) * 100 ?>%</h3>
-            <a class="btn btn-primary" href="/index.php">Home</a>
+            <a class="btn btn-primary" href="./index.php">Home</a>
         </div>
     </div>
 </body>
